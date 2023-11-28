@@ -8,7 +8,7 @@ from tsp import find_shortest_path
 def main():
     # CLOSEST POINT PROBLEM
     initial_point = (0, 0)
-    waypoints = np.random.uniform(-20, 20, size=(10, 2))
+    waypoints = np.random.uniform(-20, 20, size=(5, 2))
     print(f"Closest point: {find_closest_point(initial_point, waypoints, _plot=True)}")
 
     # SHORTEST PATH TO COVER ALL POINTS
